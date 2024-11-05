@@ -7,6 +7,8 @@ body {
   background-image: url(background\ image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  min-height: 100vh; 
+  overflow-x: hidden;
 }
 .container {
   display: flex;
@@ -50,6 +52,7 @@ input {
   border: 1px solid #666;
   border-radius: 10px;
   outline: none;
+  color:#999;
 }
 button {
   width: 50px;
@@ -165,16 +168,16 @@ button {
   }
 
   .box-1 {
-    padding: 15px;
-    gap: 10px;
+    padding: 10px;
+    gap: 8px;
   }
 
   #date {
-    font-size: 28px;
+    font-size: 18px;
   }
 
   form {
-    gap: 5px;
+    gap: 3px;
   }
 
   input {
@@ -183,9 +186,9 @@ button {
   }
 
   button {
-    width: 35px;
-    height: 35px;
-    font-size: 18px;
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
   }
 
   #task-item li {
