@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To_do List App</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box-1">
+        <div>
+          <h1>To-Do List</h1>
+          <p>One Step at a Time!</p>
+        </div>
+        <div class="date">
+          <p id="date"><span id="currentDate"></span></p>
+        </div>
+      </div>
+      <form>
+        <input id="input-el" type="text" placeholder="Please add Task" />
+        <button type="button" id="btn-el">+</button>
+      </form>
+      <div class="box-2">
+        <ul id="task-item"></ul>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
