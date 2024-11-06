@@ -55,9 +55,8 @@ input {
   color:#999;
 }
 button {
-  width: 50px;
-  height: 50px;
-  border-radius: 20%;
+  padding:10px;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -117,67 +116,29 @@ button {
   color: green;
   font-weight: bold;
 }
-/* Small screen styles (e.g., tablets) */
-@media (max-width: 600px) {
-  .container {
-    margin: 80px auto 0 auto;
-    padding: 0 10px;
-    max-width: 90%;
-  }
-
-  .box-1 {
-    padding: 20px;
-    gap: 20px;
-  }
-
-  #date {
-    font-size: 36px;
-  }
-
-  form {
-    flex-direction: column;
-    gap: 5px;
-  }
-
-  input {
-    padding: 8px;
-  }
-
-  button {
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
-  }
-
-  #task-item li {
-    font-size: 14px;
-    padding: 5px;
-  }
-
-  #task-item li button {
-    font-size: 16px;
-  }
-}
-
-/* Extra small screen styles (e.g., mobile phones) */
 @media (max-width: 400px) {
   .container {
     margin: 60px auto 0 auto;
     padding: 0 5px;
     max-width: 100%;
   }
+  body{
+    background-position: center;
+  }
 
   .box-1 {
     padding: 10px;
-    gap: 8px;
+    gap: 3px;
   }
 
-  #date {
+  #date,h1 {
     font-size: 18px;
   }
-
+  p{
+    font-size: 12px;
+  }
   form {
-    gap: 3px;
+    gap: 2px;
   }
 
   input {
@@ -186,8 +147,7 @@ button {
   }
 
   button {
-    width: 25px;
-    height: 25px;
+    padding: 6px;
     font-size: 16px;
   }
 
